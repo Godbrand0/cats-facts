@@ -27,16 +27,3 @@ function reloadPage() {
 reload.addEventListener("click", () => {
   reloadPage();
 });
-// req.onload = () => {
-//   let fact = req.response.data;
-//   let factCard = document.createElement("div");
-//   factCard.classList.add("fact");
-//   factCard.textContent = fact.fact;
-//   cat.appendChild(factCard);
-//   //   facts.forEach((fact) => {
-//   //     let factCard = document.createElement("div");
-//   //     factCard.classList.add("fact");
-//   //     factCard.textContent = fact.fact;
-//   //     cat.appendChild(factCard);
-//   //   });
-// };
